@@ -21,7 +21,7 @@ app.all('/*', async (req, res) => {
     }
 });
 
-app.get('/', (req, res) => res.send('Northflank Proxy - Alive'));
+app.get('/', (req, res) => res.send('Koyeb Proxy - Alive'));
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => console.log(`Running on ${PORT}`));
